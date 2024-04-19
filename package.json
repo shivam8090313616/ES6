@@ -1,0 +1,21 @@
+{
+  "name": "es6_preparation",
+  "version": "1.0.0",
+  "description": "Today i am ready to prepare Es6",
+  "main": "demo1.js",
+  "scripts": {
+    "test": "shivam3252"
+  },
+  "author": "shivam prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "import": "^0.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1"
+  }
+}

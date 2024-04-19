@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+      table,td,th{
+        border: 1px solid blanchedalmond;
+      }
+      td{
+        padding:4px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+      function  Component() {
+        return  <table>
+                  <tr>
+                    <th>Name</th>
+                    <th>Loc</th>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>hcvahsvva</td>
+                  </tr>
+                  <tr>
+                    <td>Elsa</td>
+                    <td>sdcasd</td>
+                  </tr>
+                </table>;
+      }
+      const container = document.getElementById('mydiv');
+      const root = ReactDOM.createRoot(container);
+      root.render(<Component />)
+    </script>
+
+  </body>
+</html>

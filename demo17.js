@@ -1,0 +1,1 @@
+setTimeout(()=> console.log("this message show after 5 second "),5000);
