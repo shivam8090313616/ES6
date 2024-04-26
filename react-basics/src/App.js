@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import User from './User';
+import Heading from './Heading';
+import Paragraph from './Paragraph';
+import List from './List';
+import Hooks from './Hooks';
+import BasicExample  from './BasicExample';
+import Card from './Card';
+import TextForm from './TextForm';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <h1>JSX 1</h1> 
+      <User/>
+      <Heading/>
+      <TextForm heading="Enter Your Message : "/>
+      <Paragraph/> 
+      <List/> 
+      <Hooks/>
+      <BasicExample h="Home" c="Contact Us" a="about Us" g="gallery"/>
+      <Card Hheight="180px" Bheight="320px" Bwidth="300px" Hwidth="300px" />
+    </div>  
   );
 }
 
