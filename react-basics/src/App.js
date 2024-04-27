@@ -7,6 +7,7 @@ import Hooks from './Hooks';
 import BasicExample  from './BasicExample';
 import Card from './Card';
 import TextForm from './TextForm';
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,7 @@ function App() {
       <User/>
       <Heading/>
       <TextForm heading="Enter Your Message : "/>
-      <Paragraph/> 
+      <Paragraph/>
       <List/> 
       <Hooks/>
       <BasicExample h="Home" c="Contact Us" a="about Us" g="gallery"/>

@@ -1,0 +1,22 @@
+.custom-scrollbar {
+  scrollbar-width: 20px;
+  scrollbar-color: #fff transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: maroon;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+option{
+    background-color: #504456;
+}
+#dropdown-basic{
+    padding: 10px;
+}
